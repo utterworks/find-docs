@@ -2,7 +2,7 @@
 
 ## Developer account
 
-Signup for a [free developer account](https://main.uwfind.utterworks.com) to get started. you will be able to create 3 search projects (indexes) and get access to the developer API that allows you access to 10,000 requests per month.
+Signup for a [free developer account](https://prod.find.utterworks.com) to get started. you will be able to create 3 search projects (indexes) and get access to the developer API that allows you access to 10,000 requests per month.
 
 ## Premium account
 
