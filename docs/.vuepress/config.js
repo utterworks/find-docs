@@ -43,18 +43,22 @@ module.exports = {
         link: 'https://prod.find.utterworks.com'
       }
     ],
-    sidebar: {
-      '/guide/': [
+    sidebar: [
         {
+          path: '/guide/',
           title: 'Documentation',
           collapsable: false,
-          children: [
-            'user-guide',
-            'getting-started/signup',
-          ]
+          sidebarDepth: 3,
+        },
+        {
+          title: 'User Guide',
+          children: [ 
+            '/user-guide/01-register'
+          ],
+          initialOpenGroupIndex: -1 
         }
       ],
-    }
+
   },
 
   /**
