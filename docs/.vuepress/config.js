@@ -53,7 +53,7 @@ module.exports = {
         {
           title: 'User Guide',
           children: [ 
-            '/user-guide/01-register'
+            '/guide/user-guide/01-register'
           ],
           initialOpenGroupIndex: -1 
         }
