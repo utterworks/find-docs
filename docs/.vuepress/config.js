@@ -40,7 +40,7 @@ module.exports = {
       },
       {
         text: 'Sign up',
-        link: 'https://main.uwfind.utterworks.com'
+        link: 'https://prod.find.utterworks.com'
       }
     ],
     sidebar: {
@@ -49,7 +49,7 @@ module.exports = {
           title: 'Documentation',
           collapsable: false,
           children: [
-            '',
+            'user-guide',
             'getting-started/signup',
           ]
         }
