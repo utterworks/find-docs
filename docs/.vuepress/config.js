@@ -52,6 +52,8 @@ module.exports = {
         },
         {
           title: 'User Guide',
+          collapsable: false,
+          sidebarDepth: 3,
           children: [ 
             '/guide/user-guide/01-register'
           ],
