@@ -20,7 +20,7 @@ Select ADD USER in the top right to add a user to the project. Through this dial
 ### Remove Project Users
 
 To remove a user from a project, simply select the check box next to the user and use the REMOVE USER option. 
-> The project OWNER-ADMIN cannot be removec
+> Note that the project OWNER-ADMIN cannot be removed
 
 ![Remove User](../img/remove-project-user.png)
 

@@ -47,13 +47,13 @@ module.exports = {
         {
           path: '/guide/',
           title: 'Documentation',
-          collapsable: false,
+          collapsable: true,
           sidebarDepth: 3,
         },
         {
           title: 'User Guide',
-          collapsable: false,
-          sidebarDepth: 3,
+          collapsable: true,
+          sidebarDepth: 4,
           children: [ 
             '/guide/user-guide/01-register',
             '/guide/user-guide/02-create-app',
