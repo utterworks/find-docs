@@ -24,9 +24,9 @@ The (+) NEW USER launches the dialog to create a new user
 
 ![New User](../img/create-account-user.png)
 
-Enter the user name and a valid email address for the user. Then either create a password for the user or have one automatically generated. In either case the user will be required to change password on first login 
+Enter the user name and a valid email address for the user. Then either create a password for the user or have one automatically generated. In either case the user will be required to change password on first login. Select whether the user will be a general user, or an account administrator. Then CREATE USER and the new user will receive an email with their temporary login credentials from admin@utterworks.com. Once they have signed in and changed their password they will appear in project user admin and can be assigned access to projects
 ::: tip
-The user will receive an email with their temporary login credentials from admin@utterworks.com 
+General users can still be made administrators on individual projects. Account administrators have the ability to add other account users. There always has to be at least one account administrator.
 :::
 
 ## Project Users
