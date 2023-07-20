@@ -32,6 +32,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
+    logo: '/guide/img/M_logo_new_black_3.png',
     lastUpdated: false,
     nav: [
       {
@@ -46,21 +47,21 @@ module.exports = {
     sidebar: [
         {
           path: '/guide/',
-          title: 'Documentation',
+          title: 'Introduction',
           collapsable: true,
           sidebarDepth: 3,
         },
         {
           title: 'User Guide',
           collapsable: true,
-          sidebarDepth: 4,
+          sidebarDepth: 5,
           children: [ 
             '/guide/user-guide/01-register',
             '/guide/user-guide/02-create-app',
             '/guide/user-guide/03-configure-project',
             '/guide/user-guide/04-add-users'
           ],
-          initialOpenGroupIndex: -1 
+          initialOpenGroupIndex: 0 
         }
       ],
 
