@@ -55,7 +55,8 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 3,
           children: [ 
-            '/guide/user-guide/01-register'
+            '/guide/user-guide/01-register',
+            '/guide/usre-guide/02-create-app'
           ],
           initialOpenGroupIndex: -1 
         }
