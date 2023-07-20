@@ -32,7 +32,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    logo: '/public/images/M_logo_new_black_3.png',
+    logo: '/images/M_logo_new_black_3.png',
     displayAllHeaders: true,
     lastUpdated: false,
     nav: [
