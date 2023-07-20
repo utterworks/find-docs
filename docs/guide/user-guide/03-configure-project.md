@@ -1,4 +1,4 @@
-# Configure a project
+# Configure a website project
 In the projects view, clicking on the project name takes you to the project configuration.
 
 ## Index Configuration

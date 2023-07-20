@@ -57,7 +57,8 @@ module.exports = {
           children: [ 
             '/guide/user-guide/01-register',
             '/guide/user-guide/02-create-app',
-            '/guide/user-guide/03-configure-project'
+            '/guide/user-guide/03-configure-project',
+            '/guide/user-guide/04-add-users'
           ],
           initialOpenGroupIndex: -1 
         }
