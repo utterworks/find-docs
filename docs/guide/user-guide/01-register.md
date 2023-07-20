@@ -8,4 +8,4 @@ The registration process requires a name, an email address and then you need to 
 ![Register](../img/registration.png)
 Once you have successfully registered you will receive a verification code at the email address you registered with, it will be sent to you from admin@utterworks.com. Sign in with the credentials you have just created and then enter the verification code as prompted.
 ![Verification](../img/verification.png)
-Congratulations, you are now signed in and ready to create your first search App :joy:
+Congratulations, you are now signed in and ready to create your first search App :smile:
