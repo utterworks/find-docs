@@ -8,7 +8,7 @@ Create a new search project using the (+) NEW PROJECT buttom
 ![Add a new project](../img/new-project.png)
 
 Enter a project name..  
->The name should be a max of 10 characters - with no spaces, a mix of lowercase letters, numbers and hyphens are allowed - this will be the reference used for the app in the API.
+>The name should be a max of 10 characters - with no spaces, a mix of lowercase letters, numbers and hyphens are allowed - this name will form part of the API url.
 
 Next, provide a meaningful description, and then select the source for the content to be indexed. This can be either a website (to crawl or configure a sitemap), or an AWS S3 bucket.
 
@@ -20,11 +20,10 @@ Once all the information is provided, use the Create button to create the new pr
 
 ## Delete a Project
 
-Projects (and all their data) can be deleted from within the projects view. Select the project and use the DELETE option, accept the warning to complete the delete
+Projects (and all their data) can be deleted from within the projects view. Select the project and use the DELETE option, accept the warning to complete the delete. Only an Administrator of a project can delete it
+
+![Delete Project](../img/delete-project.png)
 ::: warning
 Deleting a project can't be undone
 :::
-::: tip
-Only an Administrator n a project can delete it
-:::
-![Delete Project](../img/delete-project.png)
+
