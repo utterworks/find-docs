@@ -31,7 +31,7 @@ General users can still be made administrators on individual projects. Account a
 
 ## Project Users
 
-Project user administration is accessed from the users section in the left hand control
+Project user administration is accessed from the users section in the left pannel from within a project
 
 ![Manage Users](../img/users.png)
 

@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'UW Find - Cognitive Search',
+  title: 'Find - Intelligent Search',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: "Utterworks Find - Cognitive Search Engine",
+  description: "Utterworks' Find - Intelligent Search Engine",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`

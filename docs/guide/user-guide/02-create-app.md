@@ -3,7 +3,7 @@ From the landing page as a signed in user, select Indexes from the menu bar top 
 
 ![Landing Page](../img/landing-page.png) 
 
-Create a new search project using the add new project buttom
+Create a new search project using the (+) NEW PROJECT buttom
 
 ![Add a new project](../img/new-project.png)
 
@@ -17,3 +17,14 @@ Next, provide a meaningful description, and then select the source for the conte
 Once all the information is provided, use the Create button to create the new project. You'll then be taken to the projects view where you'll see the new project alongside any existing projects
 
 ![Projects View](../img/project-created.png)
+
+## Delete a Project
+
+Projects (and all their data) can be deleted from within the projects view. Select the project and use the DELETE option, accept the warning to complete the delete
+::: warning
+Deleting a project can't be undone
+:::
+::: tip
+Only an Administrator n a project can delete it
+:::
+![Delete Project](../img/delete-project.png)
