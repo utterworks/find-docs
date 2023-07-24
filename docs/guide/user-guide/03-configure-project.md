@@ -4,6 +4,7 @@ In the projects view, clicking on the project name takes you to the project conf
 ## Index Configuration
 
 The first step in setting up a new project is to configure the source of the content to be included in the search project - we call this the index. The index configuration is a view on the left hand project navigation control, or if the project is new and hasn't yet had an index configured there is a CONFIGURE INDEXING button top right
+
 ![Project View](../img/new-project-home.png)
 
 ### URLs
