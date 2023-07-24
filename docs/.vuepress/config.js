@@ -61,7 +61,10 @@ module.exports = {
             '/guide/user-guide/02-create-app',
             '/guide/user-guide/03-configure-project',
             '/guide/user-guide/04-configure-file-project',
-            '/guide/user-guide/05-add-users'
+            '/guide/user-guide/05-add-users',
+            '/guide/user-guide/06-Index-and-deploy',
+            '/guide/user-guide/07-search-api',
+            '/guide/user-guide/08-analytics'
           ],
           initialOpenGroupIndex: 0 
         }
