@@ -17,6 +17,8 @@ With a website search project the start url provides the root of the indexing jo
 To configure a sitemap as a starting url use the full path to the sitemap e.g. www.example.com/sitemap.xml
 :::
 
+![Start URL](../img/start-url.png)
+
 #### Allowed Path Patterns
 The allowed path pattern is a way of refining the content the indexer chooses to index. When this is set, the indexer will evaluate the url path of the document being processed. If the url contains a match to the allowed path pattern the content will be extracted and indexed, if the url does not contain a pattern match the content will be ignored. If the allowed path is left blank, all content is extracted and indexed (unless it matches any blocked path pattern). Multiple allowed path ptterns can be set and content that matches any one of these will be extracted. 
 ::: tip
@@ -31,13 +33,13 @@ The blocked path pattern can be used to explicitly ignore content matching a cer
 ![Blocked Path](../img/blocked-path.png)
 
 #### XPath
-The indexer uses Machine Learning to infer what the most appropriate / primary content of a page or paragraph is, but sometimes this doesn't identify the content correctly. The XPath config parameter can be uesd to specifically instruct the indexer to extract content that matches the XPath. 
+The indexer uses Machine Learning to infer what the most appropriate / primary content of a page or paragraph is, but sometimes this doesn't identify the content correctly. The XPath config parameter can be used to specifically instruct the indexer to extract content that matches the XPath. 
 
 #### Wait XPath
-Sometimes the content to be indexed is dynamically rendered at the point a page is loaded and so can be missed by the speed the indexer usually extracts content. Setting a waif XPath causes the indexer to wait until the content at a particular XPath has fully rendered before extraction. 
+Sometimes the content to be indexed is dynamically rendered at the point a page is loaded and so can be missed by the speed the indexer usually extracts content. Setting a wait XPath causes the indexer to wait until the content at a particular XPath has fully rendered before extraction. 
 
 #### Follow Links
-The follow links option tells the indexer to crawl all links on a page being indexed to pull in any additional content. This is typically set to True for a simple indexing configuration that might use a home page as the index starting url. If the index is based on one or more sitemaps, it is possible to index only content that appears explicitly in the sitemap by setting the follow links parameter to False
+The follow links option tells the indexer to crawl all links on a page being indexed to pull in any additional content. This is typically turned on for a simple indexing configuration that might use a home page as the index starting url. If the index is based on one or more sitemaps, it is possible to index only content that appears explicitly in the sitemap by turning the follow links parameter off
 
 ### Automatic Document Classification
 The Find service includes the ability to automatically give indexed content a classification based on a list of provided labels. This uses a process called Zero Shot classification and is unsupervised, as documents are indexed a classifier determines which of the provided classifications best fits the content. 
