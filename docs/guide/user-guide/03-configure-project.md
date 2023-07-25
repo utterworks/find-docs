@@ -19,9 +19,16 @@ To configure a sitemap as a starting url use the full path to the sitemap e.g. w
 
 #### Allowed Path Patterns
 The allowed path pattern is a way of refining the content the indexer chooses to index. When this is set, the indexer will evaluate the url path of the document being processed. If the url contains a match to the allowed path pattern the content will be extracted and indexed, if the url does not contain a pattern match the content will be ignored. If the allowed path is left blank, all content is extracted and indexed (unless it matches any blocked path pattern). Multiple allowed path ptterns can be set and content that matches any one of these will be extracted. 
+::: tip
+Individual path entries in the configuration are only recognised if you hit return once they are entered - they are then displayed as individual entries
+:::
+
+![Allowed Path](../img/allowed-path.png)
 
 #### Blocked Path Patterns
 The blocked path pattern can be used to explicitly ignore content matching a certain pattern. Blocked path patterns are evaluated after allowed paths, so any content matching a blocked path will be ignored regardless of whether it matches an allowed path or not. Multiple blocked path patterns can be set or it can be left blank.  
+
+![Blocked Path](../img/blocked-path.png)
 
 #### XPath
 The indexer uses Machine Learning to infer what the most appropriate / primary content of a page or paragraph is, but sometimes this doesn't identify the content correctly. The XPath config parameter can be uesd to specifically instruct the indexer to extract content that matches the XPath. 
