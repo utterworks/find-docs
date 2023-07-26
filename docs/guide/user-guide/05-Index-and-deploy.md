@@ -2,7 +2,12 @@
 
 ## Start an Indexing Job
 
+Once the indexing configuration has been an Indexing job can be started. From the prject Home view the START INDEXING button is available in the top right.
+
+![Start Indexing](../img/home-start-inedxing.png)
+
 ### Monitor Job Progress
+
 Clicking on the Index Version Id takes you through to the details page for the Index job. While the job is running the job status is updated as urls are processed by the indexer. The  
 status shows the number of urls processed in total and a count of those that have been successfully processed and a count of any that have failed to process.
 
