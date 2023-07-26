@@ -29,4 +29,12 @@ Clicking on the unique identifier for the document opens the detail view where a
 
 ## Deploy an Index
 
+Once an indexing job has been completed successfully and when you are happy with the content, the index can then be deployed to make it available for searching via the API. From the project home choose the deploy button on the right of the index version that you wish to deploy.
+
+![Deploy Index](../img/home-index-deploy.png)
+
+After a moment the deployment will start
+
+![Deployment in Progress](../img/index-deploy.png)
+
 ## Schedule automatic Indexing
