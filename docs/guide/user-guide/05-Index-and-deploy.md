@@ -2,7 +2,7 @@
 
 ## Start an Indexing Job
 
-Once the indexing configuration has been an Indexing job can be started. From the prject Home view the START INDEXING button is available in the top right.
+Once the indexing configuration has been created an Indexing job can be started. From the prject Home view the START INDEXING button is available in the top right.
 
 ![Start Indexing](../img/home-start-inedxing.png)
 
@@ -18,6 +18,14 @@ Once the Index job is complete the status is updated to reflect this with the fi
 ![Indexing Complete](../img/index-job-complete.png)
 
 ### Review Index Data
+
+As well as downloading the list of urls and a csv of the indexed documents there is a Documents view in the Project navigation. From this view documents from any index version can be viewed. There are pre filters to review documents from the latest index, or from the currently deployed index. It is also possible to select any other index version from the ALL JOBS pre-filter and selecting the specific indexing job
+
+![Indexed Documents](../img/documents-view.png)
+
+Clicking on the unique identifier for the document opens the detail view where all the details associated with the document can be reviewed.
+
+![Document Details](../img/documents-detail.png)
 
 ## Deploy an Index
 
