@@ -37,4 +37,24 @@ After a moment the deployment will start
 
 ![Deployment in Progress](../img/index-deploy.png)
 
+And once complete the index version status will update to DEPLOYED and the control will enable the UNDEPLOY button
+
+![Deployment Complete](../img/deploy-complete.png)
+
+## Deployment Details
+
+The deployment view on the left hand navigation bar shows all the details required to access the search API for a deployed index
+
+![Deployment View](../img/deployment-view.png)
+
+### Project Id
+
+### API Endpoint
+
+### Method
+
+### API Documentation
+
+### API Key
+
 ## Schedule automatic Indexing
